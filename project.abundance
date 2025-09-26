@@ -61,7 +61,7 @@
                 {
                     "name": "Shape 2",
                     "ioValue": {
-                        "geometry": "move-cut-singular-9-singular-10-0-0-20",
+                        "geometry": "move-cut-singular-6-singular-7-0-0-20",
                         "dimension": "3D",
                         "tags": [],
                         "plane": {
@@ -122,7 +122,7 @@
                 {
                     "name": "Shape 1",
                     "ioValue": {
-                        "geometry": "rotate-fuse-extrude-cut-circle-765-circle-700-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--5-move-cut-singular-9-singular-10-0-0-20-0-90-0",
+                        "geometry": "rotate-fuse-extrude-cut-circle-765-circle-700-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--5-move-cut-singular-6-singular-7-0-0-20-0-90-0",
                         "tags": [],
                         "bom": [],
                         "plane": {
@@ -149,7 +149,7 @@
                 {
                     "name": "Shape 2",
                     "ioValue": {
-                        "geometry": "cut-move-cut-singular-7-singular-8-265-0-0-move-extrude-rectangle-5000-5000-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-5000-2500-0--2500",
+                        "geometry": "cut-move-cut-singular-4-singular-5-265-0-0-move-extrude-rectangle-5000-5000-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-5000-2500-0--2500",
                         "tags": [],
                         "color": "#A3CE5B",
                         "bom": [],
@@ -310,6 +310,10 @@
                             "currentEquation": null
                         },
                         {
+                            "name": "Shape 3",
+                            "ioValue": ""
+                        },
+                        {
                             "name": "Shape 1",
                             "ioValue": {
                                 "geometry": "circle-800",
@@ -362,10 +366,6 @@
                                 "color": "#aad7f2",
                                 "bom": []
                             }
-                        },
-                        {
-                            "name": "Shape 3",
-                            "ioValue": ""
                         }
                     ],
                     "closedSelection": 0
@@ -381,6 +381,10 @@
                             "name": "Shape 3",
                             "ioValue": "",
                             "currentEquation": null
+                        },
+                        {
+                            "name": "Shape 3",
+                            "ioValue": ""
                         },
                         {
                             "name": "Shape 1",
@@ -435,10 +439,6 @@
                                 "color": "#aad7f2",
                                 "bom": []
                             }
-                        },
-                        {
-                            "name": "Shape 3",
-                            "ioValue": ""
                         }
                     ],
                     "closedSelection": 0
