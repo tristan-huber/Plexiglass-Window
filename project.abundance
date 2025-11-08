@@ -34,7 +34,7 @@
         {
           "name": "Shape 1",
           "ioValue": {
-            "geometry": "extrude-1be21923fc14f44559642bc309a1cb4c57a4bd9b28b84abd96c09afce5e0325d",
+            "geometry": "extrude-cut-circle-765-circle-700-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--5",
             "dimension": "3D",
             "tags": [],
             "plane": {
@@ -61,7 +61,7 @@
         {
           "name": "Shape 2",
           "ioValue": {
-            "geometry": "move-1d20f91f7850d74b634479deee296eb4d6b7fbaba501714a1d94aae2e1ff31ce",
+            "geometry": "move-cut-loft-circle-800-move-circle-775-0-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,-25],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-loft-circle-790-move-circle-765-0-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,-25],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0-0-20",
             "dimension": "3D",
             "tags": [],
             "plane": {
@@ -119,7 +119,7 @@
         {
           "name": "Shape 1",
           "ioValue": {
-            "geometry": "rotate-22a289283bee370e3e86397eee317f128bf4630b88ad3c17f151a2ee2e047672",
+            "geometry": "rotate-fuse-extrude-cut-circle-765-circle-700-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--5-move-cut-loft-circle-800-move-circle-775-0-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,-25],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-loft-circle-790-move-circle-765-0-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,-25],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0-0-20-0-90-0",
             "tags": [],
             "bom": [],
             "plane": {
@@ -146,7 +146,7 @@
         {
           "name": "Shape 2",
           "ioValue": {
-            "geometry": "cut-a04a88b95854962a1ab52cefd73a4cb33561492939232d2f315fe9ad4576c302",
+            "geometry": "cut-move-cut-1b7813a2-750-0-1b7813a2-740-0-265-0-0-move-extrude-rectangle-5000-5000-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-5000-2500-0--2500",
             "tags": [],
             "color": "#A3CE5B",
             "bom": [],
@@ -302,7 +302,7 @@
             {
               "name": "Shape 1",
               "ioValue": {
-                "geometry": "circle-67d4e97c1e19aa0d05aa37f1f37816964a425d432bd16eb145b3f18b1de9a686",
+                "geometry": "circle-800",
                 "dimension": "2D",
                 "tags": [],
                 "plane": {
@@ -329,7 +329,7 @@
             {
               "name": "Shape 2",
               "ioValue": {
-                "geometry": "move-4819b7db143b660e41d7b9404cffe41b3ba108f1444126449fc55d9200ba7f8d",
+                "geometry": "move-circle-775-0-0-0",
                 "dimension": "2D",
                 "tags": [],
                 "plane": {
@@ -374,7 +374,7 @@
             {
               "name": "Shape 1",
               "ioValue": {
-                "geometry": "circle-c8986a2f2daf24d8632b7d790f420ab35d90507b8c7bfaa707fb87a831456157",
+                "geometry": "circle-790",
                 "dimension": "2D",
                 "tags": [],
                 "plane": {
@@ -401,7 +401,7 @@
             {
               "name": "Shape 2",
               "ioValue": {
-                "geometry": "move-869b00a4ba20865c4fbf20002ad855462cec447ce32e55e5f559ef3cd612ad77",
+                "geometry": "move-circle-765-0-0-0",
                 "dimension": "2D",
                 "tags": [],
                 "plane": {
@@ -773,7 +773,7 @@
               "atomType": "Input",
               "name": "Radius",
               "x": 0.024749999999999998,
-              "y": 0.5944272445820433,
+              "y": 0.15,
               "uniqueID": "bdb21835-7ff7-410e-8610-1d019ee4896c",
               "ioValues": [],
               "type": "number"
@@ -866,7 +866,7 @@
               "atomType": "Input",
               "name": "Radius",
               "x": 0.024749999999999998,
-              "y": 0.5944272445820433,
+              "y": 0.15,
               "uniqueID": "b279499e-8db6-4721-8979-dd15b8d7b441",
               "ioValues": [],
               "type": "number"
