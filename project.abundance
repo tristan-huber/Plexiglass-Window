@@ -27,8 +27,8 @@
     {
       "atomType": "Fusion",
       "name": "Fusion",
-      "x": 0.419921875,
-      "y": 0.5942857142857143,
+      "x": 0.4140625,
+      "y": 0.5828571428571429,
       "uniqueID": 1741647849484,
       "ioValues": [
         {
@@ -527,7 +527,7 @@
       "atomType": "Molecule",
       "name": "Inner Lip",
       "x": 0.3046875,
-      "y": 0.7828571428571428,
+      "y": 0.7285714285714285,
       "uniqueID": 1741647699776,
       "ioValues": [],
       "topLevel": false,
@@ -630,8 +630,8 @@
     {
       "atomType": "Molecule",
       "name": "Sphere",
-      "x": 0.18815104166666669,
-      "y": 0.29714285714285715,
+      "x": 0.20117187500000003,
+      "y": 0.3,
       "uniqueID": 1741646560918,
       "ioValues": [],
       "topLevel": false,
